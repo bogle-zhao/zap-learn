@@ -1,0 +1,8 @@
+# 日志的相关配置信息
+log:
+  level: "debug"
+  mode: true
+  encoding: "json"
+  outputPaths: "out.log"
+  errorOutputPaths: "error.log"
+  initialFields: "server-name"
